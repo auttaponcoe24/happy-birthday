@@ -33,7 +33,11 @@ body {
 }
 
 #card-inside .wrap {
+  display: flex;
+  align-items: center;
   background: #FFEFEF;
+  /* background: #333; */
+  /* background-image: linear-gradient(180deg, rgba(247, 24, 239, 1) 0%, rgba(247, 25, 136, 1) 100%); */
   -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -344,6 +348,7 @@ font-family: 'Lobster', cursive;
 .text h1 {
   font-size: 1.4em;
 }
+
 
 .card-front_inside {
   position: absolute;
