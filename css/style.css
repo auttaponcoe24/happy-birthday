@@ -338,6 +338,13 @@ font-family: 'Lobster', cursive;
             transform: translateY(0);
   }
 }
+.song {
+  display: flex;;
+  margin: 0 auto;
+  background: transparent;
+  height: 30px;
+}
+
 .text {
   color: #8b6a60;
   font-family: 'Lobster', cursive;
@@ -382,7 +389,7 @@ font-family: 'Lobster', cursive;
 }
 
 .polaroid {
-  width: 240x;
+  width: 200x;
   height: 400px;
   position: absolute;
   float: left;
@@ -392,8 +399,9 @@ font-family: 'Lobster', cursive;
   -webkit-box-shadow: 0 0 6px -1px #000;
           box-shadow: 0 0 6px -1px #000;
   overflow: hidden;
-  left: 0;
-  right: 0;
+  left: 50px;
+  /* right: 0; */
+  top: 5px;
   margin: auto;
   -webkit-transform: rotate(-5deg);
           transform: rotate(-5deg);
@@ -409,6 +417,7 @@ font-family: 'Lobster', cursive;
           backface-visibility: hidden;
   background-position: center;
   background-size: cover;
+  
   -webkit-animation: fade-in 20s ease-in;
           animation: fade-in 20s ease-in;
   -webkit-animation-iteration-count: 1;
